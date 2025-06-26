@@ -110,10 +110,10 @@ const NoteDetail = ({ notes, setNotes }) => {
             <button className="clear-button" onClick={handleClear}>
               Clear Note
             </button>
-            <button className="delete-button" onClick={handleDelete}>
+            <button className="edit-button1" onClick={handleDelete}>
               Delete Note
             </button>
-            <button className="back-button" onClick={() => navigate("/")}>
+            <button className="edit-button2" onClick={() => navigate("/")}>
               Back to Home
             </button>
           </div>

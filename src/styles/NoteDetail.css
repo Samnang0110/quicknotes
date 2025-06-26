@@ -83,7 +83,7 @@
   background-color: #e0a800;
 }
 
-.delete-button {
+.edit-button1 {
   background-color: #dc3545;
   color: white;
 }
@@ -91,7 +91,7 @@
   background-color: #c82333;
 }
 
-.back-button {
+.edit-button2 {
   background-color: #6c757d;
   color: white;
 }
@@ -128,4 +128,3 @@
   border: none;
   cursor: pointer;
 }
-
