@@ -1,0 +1,67 @@
+.view-notes-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.view-notes-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.notes-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 16px;
+  padding: 10px;
+}
+
+.note-wrapper {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  user-select: none;
+  cursor: grab;
+  transition: transform 0.2s;
+}
+
+.note-wrapper:hover {
+  transform: translateY(-2px);
+}
+
+.delete-button {
+  margin-top: 10px;
+  background-color: #dc3545;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.back-button {
+  margin-top: 30px;
+  background-color: #6c757d;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #5a6268;
+}
+
+.no-notes {
+  text-align: center;
+  color: #555;
+}

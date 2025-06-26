@@ -1,0 +1,23 @@
+.note-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 16px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  user-select: none;
+}
+
+.note-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.note-card-title-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.note-card-text-link {
+  color: #000000;
+  text-decoration: none;
+}

@@ -1,0 +1,83 @@
+.card-box {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+.add-note-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-note-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.note-input,
+.note-textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.note-textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.save-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: #1e7e34;
+}
+
+.add-note-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.cancel-button {
+  background-color: #6c757d;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cancel-button:hover {
+  background-color: #5a6268;
+}
+
+.color-label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.color-input {
+  margin-left: 10px;
+  height: 34px;
+  width: 50px;
+  border: none;
+  cursor: pointer;
+}
