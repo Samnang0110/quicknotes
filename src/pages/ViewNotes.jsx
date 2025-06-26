@@ -51,7 +51,7 @@ const ViewNotes = ({ notes, setNotes }) => {
                         {...provided.dragHandleProps}
                         className="note-wrapper"
                         style={{
-                          ...provided.draggableProps.style, // ✅ Required for smooth drag
+                          ...provided.draggableProps.style, 
                         }}
                       >
                         <NoteCard

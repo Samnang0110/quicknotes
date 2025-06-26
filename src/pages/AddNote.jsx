@@ -15,7 +15,7 @@ const AddNote = ({ setNotes }) => {
     }
 
     const newNote = {
-      id: crypto.randomUUID(), // ✅ unique ID
+      id: crypto.randomUUID(), 
       title,
       content,
       color,
